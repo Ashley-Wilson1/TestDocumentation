@@ -21,7 +21,7 @@ namespace TestDocumentation
         /// </summary>
         /// <param name="number1">First number to compare.</param>
         /// <param name="number2">Second number to compare.</param>
-        /// <returns></returns>
+        /// <returns>Bigeest integer or zero if equal.</returns>
         public int compare(int number1, int number2)
         {
             if (number1 > number2)
